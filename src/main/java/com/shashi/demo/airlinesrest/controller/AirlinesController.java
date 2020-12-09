@@ -21,6 +21,9 @@ public class AirlinesController {
 		List <Flight> flightList = new ArrayList<Flight>();
 		flightList.add(new Flight("F101", "NDLS", "GUW" ));
 		flightList.add(new Flight("F102", "NDLS", "DDN" ));
+		flightList.add(new Flight("F103", "BLR", "NDLS" ));
+		flightList.add(new Flight("F104", "GUW", "NDLS" ));
+		flightList.add(new Flight("F105", "DDN", "NDLS" ));
 		
 		return flightList;
 	}
