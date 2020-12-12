@@ -13,11 +13,11 @@ public class Flight {
 		this.destination = destination;
 	}
 
-	public String getFno() {
+	public String getFlightNumber() {
 		return flightNumber;
 	}
 
-	public void setFno(String flightNumber) {
+	public void setFlightNumber(String flightNumber) {
 		this.flightNumber = flightNumber;
 	}
 
